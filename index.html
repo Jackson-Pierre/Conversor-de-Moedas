@@ -10,9 +10,9 @@
     <title>Conversor de Moedas</title>
 </head>
 <body>
-    <img src="./assets/logo.gif" alt="logo do conversor de moedas">
+    <img class="logo" src="./assets/logo.gif" alt="logo do conversor de moedas">
 
-    <main>
+    <main class="principal">
         <label>
             converter <strong>de</strong>
             <select>
@@ -29,25 +29,25 @@
         </label>
 
         <label>
-            valor
+            <strong>valor</strong>
             <input type="number" placeholder="R$ 10.000,00">
         </label>
 
         <button>Converter</button>
 
         <section>
-            <div>
+            <div class="currency-box">
                 <img src="./assets/real.png" alt="moeda a converter">
-                <p>Real</p>
-                <p>R$ 000,00</p>
+                <p class="currency">Real</p>
+                <p class="currency-value">R$ 0,00</p>
             </div>
 
-            <img src="./assets/arrow.png" alt="seta de conversão">
+            <img class="arrow" src="./assets/arrow.png" alt="seta de conversão">
 
-            <div>
+            <div class="currency-box">
                 <img src="./assets/dolar.png" alt="moeda convertida">
-                <p>Dólar Americano</p>
-                <p>US$ 000,00</p>
+                <p class="currency">Dólar Americano</p>
+                <p class="currency-value">US$ 0,00</p>
             </div>
         </section>
     </main>
