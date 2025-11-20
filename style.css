@@ -108,3 +108,17 @@ section {
     font-weight: 700;
     color: #555555;
 }
+
+@media (max-width: 500px) {
+    .logo {
+        display: none;
+    }
+
+    .principal{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        margin: 0;
+        padding-top: 1.5rem;
+    }
+}
